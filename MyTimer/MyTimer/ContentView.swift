@@ -89,6 +89,7 @@ struct ContentView: View {
             }
             // ナビゲーションバーにボタンを追加
             // ナビゲーション遷移~テキストを表示
+            //SettingViewの呼び出し。SettingViewの設定はSettingView.swift。
             .navigationBarItems(trailing: NavigationLink(destination: SettingView()) {
                 Text("秒数設定")
             })
